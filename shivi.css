@@ -1,0 +1,289 @@
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+
+    margin-right: 20px;
+}
+
+nav ul li:hover{
+    color:#f1e20b;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #addd28;
+    box-shadow: 8px 0 10px rgba(2, 0, 0, 0.1);
+}
+
+
+.more a {
+    display: inline-block;
+
+    padding: 10px 20px;
+    color: #3ebd0c;
+    text-decoration: none;
+
+}
+
+.more a:hover {
+    background-color: #555;
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 0;
+}
+.team {
+    text-align: center;
+}
+
+.team img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.team li {
+    list-style: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.work ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #f1e20b;
+    padding: 20px 0;
+    box-shadow: 20px;
+}
+
+footer img {
+    max-width: 30px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    footer img {
+        max-width: 20px;
+    }
+}
+@media (max-width: 576px) {
+    main {
+        padding: 10px;
+    }
+}
+
+.intro {
+    text-align: left; 
+}
+
+.intro {
+    text-align: center; 
+}
+
+
+
+.intro p, .intro a {
+    display: block; 
+    margin: 0; 
+    font-size: 50px; 
+    line-height: 1.4; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    background-color: #3f4041; 
+    text-decoration: none; 
+}
+
+.intro a:hover {
+    background-color: #0056b3; 
+}
+.intro img,.inline{
+    display: inline-block; 
+    vertical-align: middle; 
+}
+.intro a{
+    color: rgb(7, 230, 18);
+}
+.intro{
+    color: rgb(120, 185, 16);
+}
+
+
+header {
+    background-color: #333; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    width: 40px;
+    height: 40px;
+    opacity: 100px;
+}
+
+
+header h1 {
+    color: yellow; 
+    margin: 0; 
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(0, 255, 13); 
+}
+
+.topnav h1,.logo{
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+
+
+.more {
+    background-image: url('sd.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    box-shadow: 0 4px 8px rgba(20, 53, 235, 0.2); 
+    padding: 450px; 
+    max-width: 600px; 
+    margin: 0 auto;
+    
+}
+
+
+.more p {
+    font-size: 45px; 
+    font-family: inherit;
+    color: rgb(214, 214, 208);
+    position: top;
+    align-items: right;
+}
+
+
+.more a {
+    font-size: 50px; 
+    font-family: inherit; 
+    color: #91e20e; 
+    text-decoration: none; 
+}
+
+.more a:hover {
+    background-color: #0056b3;
+}
+nav ul li a:hover {
+    color: yellow;
+}
+
+.menu-icon{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 350px) {
+    .menu-icon {
+        visibility: visible;
+        display: block; 
+        color: #fff;
+        background-color: aliceblue;
+    }
+    nav ul {
+        display: block;
+    }
+    main{
+        display: flex;
+    }
+}
+h2{
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: inherit;
+    justify-content: center;
+}
+.work ul li {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: inherit;
+    justify-content: center;
+}
+.work ul p{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: inherit;
+}
+nav ul li img{
+    color: #f2f2f2;
+    background: white;
+}
