@@ -1,28 +1,19 @@
 
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+ *{
     margin: 0;
     padding: 0;
 }
 
 
-body {
-    font-size: 16px;
-}
+body {font-size: 16px;
 
-body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
 }
-
-
-
-
+.pic{
+    width: 850px;
+    height: 400px;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -53,11 +44,13 @@ nav ul li:hover{
     }
 }
 main {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 80%;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 20px;
-    background-color: #addd28;
+    background-color: #4c6113;
     box-shadow: 8px 0 10px rgba(2, 0, 0, 0.1);
+
 }
 
 
@@ -78,15 +71,21 @@ main {
     max-width: 50%;
     height: auto;
     margin-right: 0;
+    border-radius: 20px;
 }
+
 .team {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 .team img {
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 100px;
 
 }
 
@@ -106,7 +105,7 @@ main {
 footer {
     text-align: center;
     background-color: #333;
-    color: #f1e20b;
+    color: #368d42;
     padding: 20px 0;
     box-shadow: 20px;
 }
@@ -177,7 +176,7 @@ header {
 .logo {
     width: 40px;
     height: 40px;
-    opacity: 100px;
+    opacity: 0px;
 }
 
 
@@ -213,13 +212,15 @@ nav ul li a {
 
 .more {
     background-image: url('sd.png'); 
-    background-size: cover; 
+    background-size: 1500px; 
     background-repeat: no-repeat; 
     background-position: center center; 
     box-shadow: 0 4px 8px rgba(20, 53, 235, 0.2); 
     padding: 450px; 
-    max-width: 600px; 
+    max-width: 500px; 
     margin: 0 auto;
+    border-radius: 20px;
+   
     
 }
 
@@ -236,7 +237,7 @@ nav ul li a {
 .more a {
     font-size: 50px; 
     font-family: inherit; 
-    color: #91e20e; 
+    color: #a8d362; 
     text-decoration: none; 
 }
 
@@ -277,6 +278,7 @@ h2{
     font-size: 40px;
     font-style: inherit;
     justify-content: center;
+    
 }
 .work ul p{
     font-weight: bold;
